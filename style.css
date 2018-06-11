@@ -1,0 +1,42 @@
+/*
+style.css
+------------------
+css pour Better Motherfucking Website
+
+*/
+
+body
+{
+  width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: margin-left;
+  background:#EEEEEE ;
+  color: #333;
+
+}
+h1
+{
+  font-size: 36px;
+}
+h2
+{
+  font-size:26px;
+}
+h3
+{
+  font-size:20px;
+}
+p, blockquote,li
+{
+  font-size: 18px;
+  line-height: 1.4;
+}
+h1, p+h2, p+h3, h2+p, h3+p
+{
+  line-height: 1.5;
+}
+.font
+{
+  font-family: Courier ;
+}
