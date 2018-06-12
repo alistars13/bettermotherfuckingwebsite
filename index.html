@@ -57,14 +57,12 @@ function modePsy()
   document.body.style.backgroundColor= "magenta";
 
   var para = document.querySelectorAll('p');
+  var titres = document.querySelector('h1, h2, h3');
 
   for (i=0; para.length; i++){
     para[i].style.color= 'blue';
-}; // ça focntionne jusque ici, ensuite la deuxieme partie du script ne s'excute pas.
-
-  var titres = document.querySelector('h1, h2, h3');
-
-  for (i=0; titres.length; i++){
+  }
+  else (i=0; titres.length; i++){
     titres[i].style.color= 'green';
 }
 };
