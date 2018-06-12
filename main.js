@@ -1,9 +1,10 @@
-/*//Pop Up "youporn"!
+//Pop Up "youporn"!
 setTimeout(
     function() {
       window.alert("Viens sur www.youporn.com c'est super cool !");
     }, 2 * 1000);
-*/
+
+
 // changement des parametres apres button.
 var i;
 function modePsy()
