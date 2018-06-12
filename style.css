@@ -12,7 +12,7 @@ body
   margin-right: auto;
   text-align: margin-left;
   background:#EEEEEE ;
-  color: #333;
+  ;
 
 }
 h1
@@ -35,8 +35,36 @@ p, blockquote,li
 h1, p+h2, p+h3, h2+p, h3+p
 {
   line-height: 1.5;
+  clear: both;
 }
 .font
 {
   font-family: Courier ;
+}
+
+.button {
+  float: right;
+  padding: 5px 5px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #454545;
+  background-color: #5CAAD9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+}
+
+.button:hover {background-color: #407391}
+
+.button:active {
+  background-color: ##407391;
+  box-shadow: 0 3px #666;
+  transform: translateY(3px);
+}
+button
+{
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
