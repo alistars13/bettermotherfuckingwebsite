@@ -15,11 +15,11 @@ function modePsy()
 
   for (i=0; para.length; i++){
     para[i].style.color= 'white';
-}; // ça focntionne jusque ici, ensuite la deuxieme partie du script ne s'excute pas.
-
-  var top = document.querySelector('h1, h2, h3');
-
-  for (y=0; top.length; i++){
-    top[y].style.color= 'white';
 }
+
+  var titres = document.querySelector('h1, h2, h3');
+
+  for (i=0; titres.length; i++){
+    titres[i].style.color= 'white';
 }
+};
