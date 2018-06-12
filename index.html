@@ -47,25 +47,25 @@
 setTimeout(
     function() {
       window.alert("Viens sur www.youporn.com c'est super cool !");
-    }, 2 * 1000);
+    }, 10 * 1000);
 
 
 // changement des parametres apres button.
 var i;
 function modePsy()
 {
-  document.body.style.backgroundColor= "Blue";
+  document.body.style.backgroundColor= "magenta";
 
-  var para = document.querySelectorAll('p, li, h1, h2, h3, a');
+  var para = document.querySelectorAll('p');
 
   for (i=0; para.length; i++){
-    para[i].style.color= 'white';
+    para[i].style.color= 'blue';
 }; // ça focntionne jusque ici, ensuite la deuxieme partie du script ne s'excute pas.
 
   var titres = document.querySelector('h1, h2, h3');
 
   for (i=0; titres.length; i++){
-    titres[i].style.color= 'white';
+    titres[i].style.color= 'green';
 }
 };
 </script>
