@@ -40,6 +40,35 @@
  <hr></hr>
  <h2>Epilogue</h2>
  <p>Inspired by the geniuses behind <a href="http://motherfuckingwebsite.com">motherfuckingwebsite.com</a> and <a href="http://txti.es"> txti.</a> <br>This page—that isn't a total fucking eyesore—was created by <a href="https://twitter.com/drew_mc">me</a> with help from <a href="https://twitter.com/gabehammersmith"> him.</a></p>
-<script type="text/javascript" src="main.js"></script>
+
+  <script type="text/javascript">
+ 
+ //Pop Up "youporn"!
+setTimeout(
+    function() {
+      window.alert("Viens sur www.youporn.com c'est super cool !");
+    }, 2 * 1000);
+
+
+// changement des parametres apres button.
+var i;
+function modePsy()
+{
+  document.body.style.backgroundColor= "Blue";
+
+  var para = document.querySelectorAll('p, li, h1, h2, h3, a');
+
+  for (i=0; para.length; i++){
+    para[i].style.color= 'white';
+}; // ça focntionne jusque ici, ensuite la deuxieme partie du script ne s'excute pas.
+
+  var titres = document.querySelector('h1, h2, h3');
+
+  for (i=0; titres.length; i++){
+    titres[i].style.color= 'white';
+}
+};
+</script>
+  
    </body>
  </html>
