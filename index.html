@@ -57,11 +57,13 @@ function modePsy()
   document.body.style.backgroundColor= "magenta";
 
   var para = document.querySelectorAll('p');
-  var titres = document.querySelector('h1, h2, h3');
 
   for (i=0; para.length; i++){
     para[i].style.color= 'blue';
   }
+ 
+  var titres = document.querySelector('h1, h2, h3');
+ 
   for (i=0; titres.length; i++){
     titres[i].style.color= 'green';
   }   
